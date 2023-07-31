@@ -1,0 +1,366 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA#0_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack PS3
+   (shape (circ TOP 177800 0 0))
+   (shape (circ I1 177800 0 0))
+   (shape (circ I2 177800 0 0))
+   (shape (circ I3 177800 0 0))
+   (shape (circ I4 177800 0 0))
+   (shape (circ I5 177800 0 0))
+   (shape (circ I6 177800 0 0))
+   (shape (circ I7 177800 0 0))
+   (shape (circ I8 177800 0 0))
+   (shape (circ I9 177800 0 0))
+   (shape (circ I10 177800 0 0))
+   (shape (circ I11 177800 0 0))
+   (shape (circ I12 177800 0 0))
+   (shape (circ I13 177800 0 0))
+   (shape (circ I14 177800 0 0))
+   (shape (circ BOT 177800 0 0))
+  )
+  )
+  (network_out
+   (Net #00002 
+   (rule
+   )
+   (wire (path BOT 76200  -1187000 5933000 -1841500 5933000 -2786500 4988000
+     -4750000 4988000)
+    (connect (terminal pin ESPS1-2) (terminal pin J3-3))
+    (type protect)
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 76200  -1187000 5679000 -1714500 5679000 -1714500 5397500
+     -2032000 5397500 -2032000 4734000 -4750000 4734000)
+    (connect (terminal pin ESPS1-3) (terminal pin J3-4))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path BOT 76200  -1187000 5171000 155944 5171000 393626 4933318)
+    (connect (terminal pin ESPS1-5) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path BOT 76200  1750000 -2742000 1008000 -2742000 1000000 -2750000)
+    (connect (terminal pin MQ9-1) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (Net #00006 
+   (rule
+   )
+   (wire (path BOT 76200  -1187000 4917000 -127000 4917000 -127000 2286169
+     1968500 2286169 1968500 1246000 1750000 1246000)
+    (connect (terminal pin ESPS1-6) (terminal pin MQ7-1))
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   (wire (path BOT 63499  -1187000 4663000 -1779506 4663000 -1789883 4673377)
+    (connect (terminal pin ESPS1-7) (terminal via))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path BOT 76200  -413000 -4341000 -413000 -3587000 -500000 -3500000
+     -1000000 -3500000)
+    (connect (terminal pin MG811-1) (terminal via))
+    (type protect)
+    (attr fanout)
+   )
+   (via PS3 -1789883 4673377
+    (attr fanout))
+   (via PS3 -1000000 -3500000
+    (attr fanout))
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 76200  -1187000 4409000 -1457000 4409000 -4000000 4250000
+     -4750000 4480000)
+    (connect (terminal pin ESPS1-8) (terminal pin J3-5))
+    (type protect)
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path BOT 76200  -2750000 2603500 -2750000 -1000000)
+    (connect (terminal wire) (terminal pin ADC-0))
+   )
+   (wire (path BOT 76200  -5012000 2000000 -5012000 2603500 -2750000 2603500)
+    (connect (terminal pin BME280-0) (terminal wire))
+   )
+   (wire (path BOT 76200  -2750000 2603500 -2750000 4148400 -1651000 4148400
+     -1651000 4155000 -1187000 4155000)
+    (connect (terminal wire) (terminal pin ESPS1-9))
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   (wire (path BOT 76200  -2198363 3351389 -5207000 3351389 -5207000 -3750000
+     -5000000 -3750000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 76200  -1187000 3901000 -1982961 3901000 -2064678 3819283
+     -2198363 3685598 -2198363 3351389)
+    (connect (terminal pin ESPS1-10) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path BOT 76200  -4996000 -4250000 -4996000 -3754000 -5000000 -3750000)
+    (connect (terminal pin MQ135-1) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (Net #00012 
+   (rule
+   )
+   (wire (path BOT 76200  -1187000 3393000 -889000 3393000 -889000 -1333500
+     -3512000 -1333500 -3512000 -1000000)
+    (connect (terminal pin ESPS1-12) (terminal pin ADC-3))
+   )
+   (wire (path BOT 76200  -4250000 2000000 -3512000 2000000 -3512000 -1000000)
+    (connect (terminal pin BME280-3) (terminal pin ADC-3))
+   )
+   )
+   (Net #00013 
+   (rule
+   )
+   (wire (path BOT 76200  -1187000 3139000 -1747821 3139000 -1747821 -1206500
+     -3258000 -1206500 -3258000 -1000000)
+    (connect (terminal pin ESPS1-13) (terminal pin ADC-2))
+   )
+   (wire (path BOT 76200  -3258000 -1000000 -3258000 2222500 -4504000 2222500
+     -4504000 2000000)
+    (connect (terminal pin ADC-2) (terminal pin BME280-2))
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path BOT 76200  -5250000 8750000 -5250000 9207500 1702000 9207500
+     1702000 6441000)
+    (connect (terminal pin J5-0) (terminal pin ESPS2-0))
+   )
+   (wire (path BOT 76200  -5250000 8750000 -5250000 8000000 -4500000 8000000)
+    (connect (terminal pin J5-0) (terminal pin D1-1))
+   )
+   )
+   (Net #00027 
+   (rule
+   )
+   (wire (path BOT 76200  1750000 -3250000 2095500 -3250000 2095500 738000)
+    (connect (terminal pin MQ9-3) (terminal wire))
+   )
+   (wire (path BOT 76200  1702000 3393000 2349500 3393000 2349500 738000
+     2095500 738000)
+    (connect (terminal pin ESPS2-12) (terminal wire))
+   )
+   (wire (path BOT 76200  -667000 -4341000 -1143000 -4341000 -1143000 -4445000
+     -5504000 -4445000 -5504000 -4250000)
+    (connect (terminal pin MG811-0) (terminal pin MQ135-3))
+   )
+   (wire (path BOT 76200  2095500 738000 1750000 738000)
+    (connect (terminal wire) (terminal pin MQ7-3))
+   )
+   (wire (path BOT 76200  1750000 -3250000 1750000 -4635500 -667000 -4635500
+     -667000 -4341000)
+    (connect (terminal pin MQ9-3) (terminal pin MG811-0))
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   (wire (path BOT 76200  -750000 8000000 -750000 8750000 750000 8750000)
+    (connect (terminal pin D2-1) (terminal pin J12-0))
+   )
+   (wire (path BOT 76200  -4750000 5496000 -3254000 5496000 -750000 8000000)
+    (connect (terminal pin J3-1) (terminal pin D2-1))
+    (type protect)
+   )
+   )
+   (Net #00043 
+   (rule
+   )
+   (wire (path BOT 76200  -4274000 -1000000 -4274000 -1587500 -121390 -1587500
+     -121390 1500000 1750000 1500000)
+    (connect (terminal pin ADC-6) (terminal pin MQ7-0))
+   )
+   )
+   (Net #00044 
+   (rule
+   )
+   (wire (path BOT 76200  1750000 -2488000 -4528000 -2488000 -4528000 -1000000)
+    (connect (terminal pin MQ9-0) (terminal pin ADC-7))
+   )
+   )
+   (Net #00045 
+   (rule
+   )
+   (wire (path BOT 76200  -159000 -4341000 -159000 -3175000 -4782000 -3175000
+     -4782000 -1000000)
+    (connect (terminal pin MG811-2) (terminal pin ADC-8))
+   )
+   )
+   (Net #00046 
+   (rule
+   )
+   (wire (path BOT 76200  -4742000 -4250000 -4742000 -3302000 -5036000 -3302000
+     -5036000 -1000000)
+    (connect (terminal pin MQ135-0) (terminal pin ADC-9))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 76200  -4318000 8001000 -4318000 6826116 -5334000 6826116
+     -5334000 1651000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 76200  -4758000 2000000 -4758000 2349500 -3004000 2349500
+     -3004000 -1000000)
+    (connect (terminal pin BME280-1) (terminal pin ADC-1))
+   )
+   (wire (path BOT 76200  -3766000 -1000000 -3766000 1651000 -4758000 1651000)
+    (connect (terminal pin ADC-4) (terminal wire))
+   )
+   (wire (path BOT 76200  1750000 -2996000 95000 -2996000 95000 -4341000)
+    (connect (terminal pin MQ9-2) (terminal pin MG811-3))
+   )
+   (wire (path BOT 76200  -5250000 -4250000 -5250000 -3873500 -5334000 -3873500
+     -5334000 1651000)
+    (connect (terminal pin MQ135-2) (terminal wire))
+   )
+   (wire (path BOT 76200  -5334000 1651000 -4758000 1651000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 76200  -4758000 1651000 -4758000 2000000)
+    (connect (terminal wire) (terminal pin BME280-1))
+   )
+   (wire (path BOT 76200  1004000 8750000 1004000 8953500 -3048000 8953500
+     -3048000 8000000 -3484000 8000000)
+    (connect (terminal pin J12-1) (terminal pin D1-0))
+   )
+   (wire (path BOT 76200  266000 8000000 1004000 8000000 1004000 8750000)
+    (connect (terminal pin D2-0) (terminal pin J12-1))
+   )
+   (wire (path BOT 76200  -4318000 8001000 -4318000 8750000 -4996000 8750000)
+    (connect (terminal wire) (terminal pin J5-1))
+   )
+   (wire (path BOT 76200  254000 6477000 254000 6187000 -1187000 6187000)
+    (connect (terminal wire) (terminal pin ESPS1-1))
+   )
+   (wire (path BOT 76200  254000 6477000 554855 6477000 554855 6187000
+     1702000 6187000)
+    (connect (terminal wire) (terminal pin ESPS2-1))
+   )
+   (wire (path BOT 76200  1750000 992000 2095500 992000 2095500 3139000
+     1702000 3139000)
+    (connect (terminal pin MQ7-2) (terminal pin ESPS2-13))
+   )
+   (wire (path BOT 76200  254000 6477000 254000 7003100 266000 7003100
+     266000 8000000)
+    (connect (terminal wire) (terminal pin D2-0))
+   )
+   (wire (path BOT 76200  -3484000 8000000 -3937000 8000000 -3937000 8001000
+     -4318000 8001000)
+    (connect (terminal pin D1-0) (terminal wire))
+   )
+   (wire (path BOT 76200  1750000 992000 1524000 992000 1524000 -1651000
+     1968500 -1651000 1968500 -2996000 1750000 -2996000)
+    (connect (terminal pin MQ7-2) (terminal pin MQ9-2))
+   )
+   (wire (path BOT 76200  1702000 5171000 2032000 5171000 2032000 6187000
+     1702000 6187000)
+    (connect (terminal pin ESPS2-5) (terminal pin ESPS2-1))
+   )
+   (wire (path BOT 76200  1702000 5171000 1397000 5171000 1397000 3139000
+     1702000 3139000)
+    (connect (terminal pin ESPS2-5) (terminal pin ESPS2-13))
+   )
+   )
+  )
+ )

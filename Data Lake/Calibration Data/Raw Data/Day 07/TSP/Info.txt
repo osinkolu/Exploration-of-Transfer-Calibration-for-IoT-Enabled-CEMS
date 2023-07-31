@@ -1,0 +1,4 @@
+AlarmTotal: 1200
+AlarmStart: 22
+AlarmEnd: 49222
+AlarmMax: 1000000
