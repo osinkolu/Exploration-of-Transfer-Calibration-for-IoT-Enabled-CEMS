@@ -38,5 +38,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 Let's work together towards a cleaner and greener future! 🌿🌍
 
-For any questions or concerns, please contact us at [contact@example.com](mailto:femiosinkolu@gmail.com).
+For any questions or concerns, please contact victor at [femiosinkolu@gmail.com](mailto:femiosinkolu@gmail.com).
 
