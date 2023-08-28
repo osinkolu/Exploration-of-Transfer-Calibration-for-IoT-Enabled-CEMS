@@ -1,7 +1,5 @@
 # Exploration-of-Transfer-Calibration-for-IoT-Enabled-CEMS
 
-![Emissions Monitoring](https://sagemetering.com/wp-content/uploads/2012/12/ghg-emissions-reporting.jpg)
-
 Welcome to the IoT-Based Emissions Monitoring System repository! This project is a spinoff from the chemotronix project and aims to develop a low-cost, real-time emissions monitoring system using IoT devices, machine learning, and decentralized data storage. The system allows for accurate and continuous monitoring of carbon dioxide (CO2) emissions, contributing to environmental sustainability efforts.
 
 ## Table of Contents
